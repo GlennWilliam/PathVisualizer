@@ -16,7 +16,16 @@ GREY = (128, 128, 128)
 
 
 def algorithm(draw, grid, start, end):
-    bfs(draw, grid, start, end)
+    # Now the algorithm that is being used is dijkstra's algorithm. 
+    # To change the algorithm, uncomment the algorithm you wnat to use, and comment the previous one. 
+    # Make sure there is only one algorithm that is running
+
+    # dijkstra(draw, grid, start, end)
+    # aStar(draw, grid, start, end)
+    # dfs(draw, grid, start, end)
+    # bfs(draw, grid, start, end)
+    greedyBestFirstSearch(draw, grid, start, end)
+
     
 
 
