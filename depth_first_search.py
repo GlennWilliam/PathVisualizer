@@ -36,9 +36,9 @@ def dfs(draw, grid, start, end):
                     stack.append(neighbor)
                     came_from[neighbor] = current
 
-        draw()
-
         if current != start:
             current.makeVisited()
 
     return False
+
+

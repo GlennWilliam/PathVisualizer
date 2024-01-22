@@ -22,13 +22,10 @@ def algorithm(draw, grid, start, end):
 
     # dijkstra(draw, grid, start, end)
     # aStar(draw, grid, start, end)
-    # dfs(draw, grid, start, end)
+    dfs(draw, grid, start, end)
     # bfs(draw, grid, start, end)
-    greedyBestFirstSearch(draw, grid, start, end)
-
+    # greedyBestFirstSearch(draw, grid, start, end)
     
-
-
 def buildGrid(row, width):
 
     grid = []
